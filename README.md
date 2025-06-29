@@ -1,20 +1,20 @@
 # hello_raylib
 
-Questo repository contiene alcuni semplici esempi di utilizzo della libreria raylib per la creazione di grafica in C.
+This repository contains simple examples of usage of the raylib library, creation of graphics in C.
 
 ## File C
 
-* **hello_raylib.c**: Un semplice "Hello, World!" che apre una finestra e visualizza un testo.
-* **circle.c**: Mostra come disegnare cerchi con diversi stili e colori.
-* **grid.c**: Disegna una griglia di rombi verdi.
+* **hello_raylib.c**: "Hello, World!".
+* **circle.c**: circles with colors.
+* **grid.c**: diamonds in a grid.
 
 ## Build
 
-Il progetto utilizza Meson per la compilazione. Per compilare ed eseguire uno degli esempi:
+Use of Meson to compile. The directories. eg of raylib, compiled from source, MUST modified with the user path!:
 
 ```bash
 meson build
 meson compile -C build
 ./build/nome_eseguibile 
 ```
-Sostituire `nome_eseguibile` con `hello_raylib`, `circle`, or `grid`.
+change `nome_eseguibile` con `hello_raylib`, `circle`, or `grid`.
