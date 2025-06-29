@@ -24,9 +24,9 @@ executable('hello_raylib',
   install: true
 )
 
-executable('circle',
-  sources: src_circle,
-  include_directories: raylib_inc,
-  dependencies: [raylib_lib, math_lib],
-  install: true
-)
+executable('circle',  sources: src_circle,  include_directories: raylib_inc,  dependencies: [raylib_lib, math_lib],  install: true)
+
+src_grid = 'grid.c'
+
+executable('grid',  sources: src_grid,  include_directories: raylib_inc,  dependencies: [raylib_lib, math_lib],  install: true)
+

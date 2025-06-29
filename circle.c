@@ -29,6 +29,9 @@ int main(void) {
             DrawCircleGradient(screenWidth/5, 220, 60, GREEN, SKYBLUE);
             DrawCircleLines(screenWidth/5, 340, 80, DARKBLUE);
             DrawCircle(screenWidth/5, 400, 150, DARKBROWN);
+            Color clr_inner = {60., 120., 100., 1.};
+            Color clr_outer = {450., 70., 45., 16.};
+            DrawCircleGradient(200,200, 120, clr_inner, clr_outer);
         EndDrawing();
         //----------------------------------------------------------------------------------
     }
