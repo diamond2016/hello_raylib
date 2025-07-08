@@ -30,3 +30,12 @@ src_grid = 'grid.c'
 
 executable('grid',  sources: src_grid,  include_directories: raylib_inc,  dependencies: [raylib_lib, math_lib],  install: true)
 
+src_spiral = 'spiral.c'
+
+executable('spiral',
+  sources: src_spiral,
+  include_directories: raylib_inc,
+  dependencies: [raylib_lib, math_lib],
+  install: true
+)
+

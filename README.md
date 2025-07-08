@@ -7,6 +7,7 @@ This repository contains simple examples of usage of the raylib library, creatio
 * **hello_raylib.c**: "Hello, World!".
 * **circle.c**: circles with colors.
 * **grid.c**: diamonds in a grid.
+* **spiral.c**: a red spiral.
 
 ## Build
 
